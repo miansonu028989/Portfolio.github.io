@@ -1,10 +1,14 @@
-/*Header*/
+/*ader*/
+:root{
+    --color-primary:teal;
+    --color-primary2:rgb(255, 255, 255)l;
+}
 .header-container{
     background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -22,13 +26,35 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header-container .mian-text .p-text .span-text{
-    color: teal;
+    color: var(--color-primary);
     font-size: 6rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-style: italic;
 }
-
+.mian-text .typed-text{
+    font-variant: small-caps;
+    font-size: 3ch;
+    font-style: italic;
+}
+.btn{
+    margin: 2rem;
+    color: var(--color-primary2);
+    width: 300px;
+    height: 0%;
+    padding: 2% 2%;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    transition: 0.3s;
+    outline: none;
+    font-size: 18px;
+    box-shadow: inset 50px 0 0 0 gold;
+    overflow: hidden;
+}
+.btn:hover{
+    box-shadow: inset -50px 0px 0px 0px gold;
+    background-color: var(--color-primary);
+}
 /*Media start*/
 @media only screen and (max-width:760px) {
     .header-container{
@@ -36,7 +62,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh;
+        height: 120vh;
         border: 2px solid black;
         display: flex;
         justify-content: center;
@@ -55,10 +81,28 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .header-container .mian-text .p-text .span-text{
-        color: teal;
+        color:var(--color-primary);
         font-size: 3rem;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 300;
         font-style: italic;
+    }
+    .btn{
+        margin: 1rem;
+        color: var(--color-primary2);
+        width: 150px;
+        height: 50px;
+        padding: 2% 2%;
+        background-color: var(--color-primary);
+        border-radius: 10px;
+        transition: 0.3s;
+        outline: none;
+        font-size: 18px;
+        box-shadow: inset 50px 0 0 0 gold;
+        overflow: hidden;
+    }
+    .btn:hover{
+        box-shadow: inset -75px 0px 0px 0px gold;
+        background-color: var(--color-primary);
     }
 }

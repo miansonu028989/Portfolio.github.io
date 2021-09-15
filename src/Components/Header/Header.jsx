@@ -15,7 +15,12 @@ const Header=()=>{
                             "Application Using React",
                             "Front-End Developer",
                             "Back-End Developer"]}
+                typeSpeed={100}
+                backSpeed={50}
+                loop
                 />
+                <br/>
+                <a href="#" className="btn">Contect Me</a>
             </div>
             <br/>
         </div>
