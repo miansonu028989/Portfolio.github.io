@@ -3,7 +3,7 @@ import './headerStyle.css';
 import ReactTyped from "react-typed";
 const Header=()=>{
     return (
-        <div className="container-fluid header-container">
+        <div className="container-fluid header-container" id="particles.js">
 
             <div className="mian-text header-text">
                 <p className="p-text header-text-p">
