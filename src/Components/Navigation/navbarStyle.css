@@ -1,0 +1,16 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: auto;
+    height: 5rem;
+}
+
+.navbar .container-fluid .navbar-brand{
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-nav .nav-item{
+    border: 2px wheat solid;
+}
