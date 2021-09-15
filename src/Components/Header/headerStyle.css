@@ -1,3 +1,4 @@
+/*Header*/
 .header-container{
     background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
     background-size: cover;
@@ -27,6 +28,8 @@
     font-weight: 300;
     font-style: italic;
 }
+
+/*Media start*/
 @media only screen and (max-width:760px) {
     .header-container{
         background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
