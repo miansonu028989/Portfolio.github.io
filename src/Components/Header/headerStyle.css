@@ -1,0 +1,61 @@
+.header-container{
+    background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.header-container .mian-text{
+    position: absolute;
+    transform: translateY(50vh);
+    color: gold;
+    text-align: center;
+}
+.header-container .mian-text .p-text{
+    font-size: 10ch;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-container .mian-text .p-text .span-text{
+    color: teal;
+    font-size: 6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+@media only screen and (max-width:760px) {
+    .header-container{
+        background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .header-container .mian-text{
+        position: absolute;
+        transform: translateX(50%);
+        transform: translateY(50vh);
+        color: gold;
+        text-align: center;
+    }
+    .header-container .mian-text .p-text{
+        font-size: 3ch;
+        font-weight: 100;
+        font-variant: small-caps;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header-container .mian-text .p-text .span-text{
+        color: teal;
+        font-size: 3rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+}
