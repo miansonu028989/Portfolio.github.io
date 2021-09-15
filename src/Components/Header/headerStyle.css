@@ -5,6 +5,7 @@
 }
 .header-container{
     background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,11 +54,6 @@
 .btn:hover{
     box-shadow: inset -50px 0px 0px 0px gold;
     background-color: var(--color-primary);
-}
-#particles-js{
-    width: auto;
-    height: 150vh;
-    background-color: coral;
 }
 /*Media start*/
 @media only screen and (max-width:760px) {
