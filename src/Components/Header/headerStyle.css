@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 120vh;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
 }
@@ -55,6 +54,11 @@
     box-shadow: inset -50px 0px 0px 0px gold;
     background-color: var(--color-primary);
 }
+#particles-js{
+    width: auto;
+    height: 150vh;
+    background-color: coral;
+}
 /*Media start*/
 @media only screen and (max-width:760px) {
     .header-container{
@@ -63,7 +67,6 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 120vh;
-        border: 2px solid black;
         display: flex;
         justify-content: center;
     }
