@@ -18,12 +18,15 @@
     transition: all 1s;
     text-align: center;
     justify-content: center;
-    width:5rem;
+    width: auto;
     padding: 5px;
     margin: 0.3rem;
     overflow: hidden;
 }
 .navbar-nav .nav-item .nav-link{
+    text-align: center;
+    justify-content: center;
+    width: auto;
     padding: 10px;
     margin: 5px;
     font-size: 16px;
@@ -31,16 +34,15 @@
 .navbar-nav .nav-item:hover{
     transition: all 1s;
     border-top: 1px gold solid;
-    box-shadow: inset 5rem 0px 0px 0px gold;
+    box-shadow: inset 10px 0px 0px 0px gold;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     text-align: center;
-    width:5rem;
     padding: 5px;
     margin: 0.3rem;
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 208, 0);
     padding: 10px;
     margin: 5px;
 }
