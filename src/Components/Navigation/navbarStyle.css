@@ -1,16 +1,46 @@
-.navbar-nav{
-    display: flex;
-    justify-content: space-between;
-}
 .navbar{
     width: auto;
-    height: 5rem;
+    height: auto;
 }
-
 .navbar .container-fluid .navbar-brand{
-    padding: 1rem;
+    transition: all 1s;
+    padding: 10px;
     letter-spacing: 0.1rem;
 }
+.navbar .container-fluid .navbar-brand:hover{
+    transition: all 1s;
+    color: gold;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    border-bottom: gold solid 1px;
+}
 .navbar-nav .nav-item{
-    border: 2px wheat solid;
+    transition: all 1s;
+    text-align: center;
+    justify-content: center;
+    width:5rem;
+    padding: 5px;
+    margin: 0.3rem;
+    overflow: hidden;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+.navbar-nav .nav-item:hover{
+    transition: all 1s;
+    border-top: 1px gold solid;
+    box-shadow: inset 5rem 0px 0px 0px gold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    width:5rem;
+    padding: 5px;
+    margin: 0.3rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
 }
