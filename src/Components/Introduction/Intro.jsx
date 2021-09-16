@@ -8,14 +8,14 @@ class Intro extends Component{
         return (
             <div className="Intro-body">
                 <div className="Intro-header-text mb-3">
-                    <h1 className="h1-text text-center pa-5">
-                        Introduction | <span>About Me</span>
+                    <h1 className="h1-text text-center">
+                        Introduction | <span className="span">About Me</span>
                     </h1>
                 </div>
                 <div className="card mb-3" id="AboutMe">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={imagesurl} className="img-fluid rounded-start" alt=""/>
+                            <img src={imagesurl} className="img-fluid rounded-start" alt="student"/>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">

@@ -1,11 +1,40 @@
+:root{
+    --teal-color:teal;
+    --gold-color:gold;
+    --goldenrod-colr:goldenrod;
+    --font-sm-w:100;
+    --font-dm-w:500;
+    --font-xl-w:700;
+    --mid-heigth:50vh;
+    --full-height:100vh;
+    --mid-width:50%;
+    --full-width:100%;
+    --font-z-2ch:2ch;
+    --font-z-6ch:6ch;
+    --font-z-8ch:8ch;
+}
+
 .Intro-body{
     margin-top: 20px;
 }
 .card {
-    width: 100%;
-    height: 50vh;
+    width: var(--full-width);
+    height: var(--mid-heigth);
 }
 .img-fluid{
-    height: 50vh;
-    width: 100%;
+    height: var(--mid-heigth);
+    width: var(--full-width);
+}
+.Intro-header-text{
+    margin: 2px;
+}
+.Intro-header-text .h1-text{
+    font-variant: small-caps;
+    color: var(--goldenrod-colr);
+}
+.Intro-header-text .h1-text .span{
+    font-variant: small-caps;
+    font-weight: var(--font-xl-w);
+    font-size: var(--font-z-2ch);
+    color: var(--teal-color);
 }

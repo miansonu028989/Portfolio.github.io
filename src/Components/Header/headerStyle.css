@@ -97,11 +97,11 @@
         transition: 0.3s;
         outline: none;
         font-size: 18px;
-        box-shadow: inset 50px 0 0 0 gold;
+        box-shadow: inset 25px 0 0 0 gold;
         overflow: hidden;
     }
     .btn:hover{
-        box-shadow: inset -75px 0px 0px 0px gold;
+        box-shadow: inset -25px 0px 0px 0px gold;
         background-color: var(--color-primary);
     }
 }
