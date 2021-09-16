@@ -17,6 +17,7 @@
 
 .Intro-body{
     margin-top: 20px;
+    margin-bottom: 3px;
 }
 .card {
     width: var(--full-width);
@@ -45,4 +46,9 @@
     font-weight: var(--font-sm-w);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--teal-color);
+}
+.card-body .card-text{
+    margin: 5px;
+    font-family: fantasy;
+    padding: 3px;
 }
