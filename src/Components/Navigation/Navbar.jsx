@@ -21,7 +21,7 @@ const Navbar=()=>{
                             <a class="nav-link" href="#">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contect</a>
+                            <a class="nav-link" href="#">Contect</a>
                         </li>
                     </ul>
                 </div>
