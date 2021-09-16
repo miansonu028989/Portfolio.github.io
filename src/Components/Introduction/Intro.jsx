@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import react,{ Component } from "react";
 import './introStyle.css';
+import ReactTyped from "react-typed";
 import imagesurl from "./images/student.jpg";
 
 class Intro extends Component{
@@ -18,9 +19,21 @@ class Intro extends Component{
                             <img src={imagesurl} className="img-fluid rounded-start" alt="student"/>
                         </div>
                         <div className="col-md-8">
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="card-body text-center">
+                                <h5 className="card-title">Muhammad Talha</h5>
+                                <p className="card-text">
+                                <ReactTyped
+                                    className="typed-text"
+                                    strings={["Hi! ",
+                                                "Database Monitoring",
+                                                "Application Using React",
+                                                "Front-End Developer",
+                                                "Back-End Developer"]}
+                                    typeSpeed={100}
+                                    backSpeed={50}
+                                    loop
+                                    />
+                                </p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>

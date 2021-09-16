@@ -12,6 +12,7 @@
     --font-z-2ch:2ch;
     --font-z-6ch:6ch;
     --font-z-8ch:8ch;
+    --text-align-center:center;
 }
 
 .Intro-body{
@@ -21,7 +22,7 @@
     width: var(--full-width);
     height: var(--mid-heigth);
 }
-.img-fluid{
+.card .img-fluid{
     height: var(--mid-heigth);
     width: var(--full-width);
 }
@@ -36,5 +37,12 @@
     font-variant: small-caps;
     font-weight: var(--font-xl-w);
     font-size: var(--font-z-2ch);
+    color: var(--teal-color);
+}
+.card-body .card-title{
+    font-size: var(--font-z-6ch);
+    text-align: var(--text-align-center);
+    font-weight: var(--font-sm-w);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--teal-color);
 }
