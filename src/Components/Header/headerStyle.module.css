@@ -3,7 +3,7 @@
     --color-primary:teal;
     --color-primary2:rgb(255, 255, 255)l;
 }
-.header-container{
+.headerContainer{
     background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
     background-color: transparent;
     background-size: cover;
@@ -13,26 +13,26 @@
     display: flex;
     justify-content: center;
 }
-.header-container .mian-text{
+.headerContainer .mianText{
     position: absolute;
     transform: translateY(50vh);
     color: gold;
     text-align: center;
 }
-.header-container .mian-text .p-text{
+.headerContainer .mianText .pText{
     font-size: 10ch;
     font-weight: 100;
     font-variant: small-caps;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header-container .mian-text .p-text .span-text{
+.headerContainer .mianText .pText .spanText{
     color: var(--color-primary);
     font-size: 6rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-style: italic;
 }
-.mian-text .typed-text{
+.mianText .typedText{
     font-variant: small-caps;
     font-size: 3ch;
     font-style: italic;
@@ -57,7 +57,7 @@
 }
 /*Media start*/
 @media only screen and (max-width:760px) {
-    .header-container{
+    .headerContainer{
         background-image: url("./images/walling-g9bohm9h29Q-unsplash.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -66,20 +66,20 @@
         display: flex;
         justify-content: center;
     }
-    .header-container .mian-text{
+    .headerContainer .mianText{
         position: absolute;
         transform: translateX(50%);
         transform: translateY(50vh);
         color: gold;
         text-align: center;
     }
-    .header-container .mian-text .p-text{
+    .headerContainer .mianText .pText{
         font-size: 3ch;
         font-weight: 100;
         font-variant: small-caps;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .header-container .mian-text .p-text .span-text{
+    .headerContainer .mianCext .pText .spanText{
         color:var(--color-primary);
         font-size: 3rem;
         font-family:Verdana, Geneva, Tahoma, sans-serif;

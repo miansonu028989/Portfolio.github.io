@@ -17,13 +17,13 @@
 
 .Intro-body{
     margin-top: 20px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
-.card {
+.card-id {
     width: var(--full-width);
     height: var(--mid-heigth);
 }
-.card .img-fluid{
+.card-id #img-fluid{
     height: var(--mid-heigth);
     width: var(--full-width);
 }
@@ -40,14 +40,14 @@
     font-size: var(--font-z-2ch);
     color: var(--teal-color);
 }
-.card-body .card-title{
+#card-body #card-title{
     font-size: var(--font-z-6ch);
     text-align: var(--text-align-center);
     font-weight: var(--font-sm-w);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--teal-color);
 }
-.card-body .card-text{
+#card-body #card-text{
     margin: 5px;
     font-family: fantasy;
     padding: 3px;

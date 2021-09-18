@@ -23,23 +23,23 @@ class Intro extends Component{
                         Introduction | <span className="span">About Me</span>
                     </h1>
                 </div>
-                <div className="card mb-3" id="AboutMe">
+                <div className="card card-id mb-3" id="AboutMe">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={imagesurl} className="img-fluid rounded-start" alt="student"/>
+                            <img src={imagesurl} className="img-fluid rounded-start" id="img-fluid" alt="student"/>
                         </div>
                         <div className="col-md-8">
-                            <div className="card-body text-center">
-                                <h5 className="card-title">Muhammad Talha</h5>
-                                <p className="card-text">
+                            <div className="card-body text-center" id="card-body">
+                                <h5 className="card-title" id="card-title">Muhammad Talha</h5>
+                                <p className="card-text" id="card-text">
                                 <ReactTyped
                                     className="typed-text"
                                     strings={[this.state.aboutMe]}
-                                    typeSpeed={5}
+                                    typeSpeed={15}
                                     backSpeed={10}
                                     />
                                 </p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                <p className="card-text" id="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
                     </div>

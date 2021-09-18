@@ -1,13 +1,13 @@
 import React from "react";
-import './headerStyle.css';
+import headerStyle from './headerStyle.module.css';
 import ReactTyped from "react-typed";
 
 const Header=()=>{
     return (
-        <div className="container-fluid header-container">  
-            <div className="mian-text header-text" id="particles.js">
-                <p className="p-text header-text-p">
-                Websites Developer <span className="span-text">Portfolio</span>
+        <div className={`${headerStyle.containerFluid} ${headerStyle.headerContainer}`}>  
+            <div className={`${headerStyle.mianText} ${headerStyle.headerText}`} id="particles.js">
+                <p className={`${headerStyle.pText} ${headerStyle.headerTextT}`}>
+                Websites Developer <span className={`${headerStyle.spanText} spanTeaxt`}>Portfolio</span>
                 </p>
                 <ReactTyped
                 className="typed-text"
@@ -21,7 +21,7 @@ const Header=()=>{
                 loop
                 />
                 <br/>
-                <a href="#" className="btn">Contect Me</a>
+                <a href="#" className={`${headerStyle.btn} btn`}>Contect Me</a>
             </div>
             <br/>
         </div>

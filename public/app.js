@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* -----------------------------------------------
 /* How to use? : Check the GitHub README
 /* ----------------------------------------------- */
@@ -16,7 +17,7 @@ particlesJS('particles-js',
 {
   "particles": {
     "number": {
-      "value": 260,
+      "value": 30,
       "density": {
         "enable": true,
         "value_area": 800
@@ -42,37 +43,37 @@ particlesJS('particles-js',
     },
     "opacity": {
       "value": 0.5,
-      "random": false,
+      "random": false,//false
       "anim": {
-        "enable": false,
+        "enable": false,//false
         "speed": 1,
         "opacity_min": 0.1,
-        "sync": false
+        "sync": false //false
       }
     },
     "size": {
       "value": 5,
-      "random": true,
+      "random": false,//true
       "anim": {
-        "enable": false,
+        "enable": false,//false
         "speed": 40,
         "size_min": 0.1,
-        "sync": false
+        "sync": false //false
       }
     },
     "line_linked": {
       "enable": true,
       "distance": 150,
       "color": "#FFD700",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 1,
+      "width": 2
     },
     "move": {
       "enable": true,
       "speed": 2,
       "direction": "none",
-      "random": false,
-      "straight": false,
+      "random": true,//false
+      "straight": false,//false
       "out_mode": "out",
       "attract": {
         "enable": false,
@@ -104,9 +105,9 @@ particlesJS('particles-js',
       "bubble": {
         "distance": 400,
         "size": 40,
-        "duration": 2,
+        "duration": 10,//2
         "opacity": 8,
-        "speed": 3
+        "speed": 1 //3
       },
       "repulse": {
         "distance": 200

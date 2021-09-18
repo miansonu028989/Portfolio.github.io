@@ -1,0 +1,69 @@
+:root{
+    --teal-color:teal;
+    --gold-color:gold;
+    --goldenrod-colr:goldenrod;
+    --font-sm-w:100;
+    --font-dm-w:500;
+    --font-xl-w:700;
+    --mid-heigth:50vh;
+    --full-height:100vh;
+    --mid-width:50%;
+    --full-width:100%;
+    --font-z-2ch:2ch;
+    --font-z-6ch:6ch;
+    --font-z-8ch:8ch;
+    --text-align-center:center;
+}
+.skillBody{
+    position: relative;
+    margin-top: 0px;
+    border: gray  solid 2px;
+    width: 100%;
+    height: 100vh;
+}
+.Intro-body{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card-id {
+    width: var(--full-width);
+    height: var(--mid-heigth);
+}
+.card-id #img-fluid{
+    height: var(--mid-heigth);
+    width: var(--full-width);
+}
+.Intro-header-text{
+    margin: 2px;
+}
+.Intro-header-text .h1-text{
+    font-variant: small-caps;
+    color: var(--goldenrod-colr);
+}
+.Intro-header-text .h1-text .span{
+    font-variant: small-caps;
+    font-weight: var(--font-xl-w);
+    font-size: var(--font-z-2ch);
+    color: var(--teal-color);
+}
+#card-body #card-title{
+    font-size: var(--font-z-6ch);
+    text-align: var(--text-align-center);
+    font-weight: var(--font-sm-w);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--teal-color);
+}
+#card-body #card-text{
+    margin: 5px;
+    font-family: fantasy;
+    padding: 3px;
+}
+@media screen and (max-width:769px) {
+    .skillBody{
+        position: relative;
+        margin-top: 60vh;
+        border: gray  solid 2px;
+        width: 100%;
+        height: 100vh;
+    }
+}
