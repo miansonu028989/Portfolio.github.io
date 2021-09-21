@@ -4,8 +4,13 @@ import Roboturl from './Images/robots.png'
 class Projects extends Component{
     render(){
         return (
-            <div className={`${pStyle.projectBody} container`}>
-                <div className={`row g-0 d-flex justify-content-center justify-content-xl-evenly justify-content-md-evenly`}>
+            <div className={`${pStyle.projectBody} container-fluid`} id={`Projects`}>
+                <div className={`${pStyle.IntroHeaderText} mb-3`}>
+                    <h1 className={`${pStyle.h1Text} text-center`}>
+                        Complete | <span className={`${pStyle.span}`}>Projects</span>
+                    </h1>
+                </div>
+                <div className={`row d-flex justify-content-center justify-content-xl-evenly justify-content-md-evenly`}>
                     <div className={`col-sm-12 col-md-4 col-xl-4`}>
                         <div className={`card ${pStyle.customCard} mt-5 mb-5`}>
                             <img src={Roboturl} className={`card-img-top`} alt="..."/>

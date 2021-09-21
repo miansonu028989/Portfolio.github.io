@@ -18,10 +18,10 @@ const Navbar=()=>{
                             <a class="nav-link" href="#Skill">Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Project</a>
+                            <a class="nav-link" href="#Projects">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contect</a>
+                            <a class="nav-link" href="#Contect">Contect</a>
                         </li>
                     </ul>
                 </div>

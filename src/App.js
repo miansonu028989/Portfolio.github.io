@@ -5,15 +5,23 @@ import Header from './Components/Header/Header';
 import Intro from "./Components/Introduction/Intro";
 import Skill from './Components/Skill/Skill';
 import Projects from './Components/CourseProjects/Projects';
+import Contect from './Components/Contects/Contects';
 function App() {
   return (
     <div className="App">
     <Navbar/>
+
     <Header/>
-    <Intro/>
+
+    <Intro/> 
+
     <Skill/>
+
     <br/>
+
     <Projects/>
+
+    <Contect/>
     </div>
   );
 }
