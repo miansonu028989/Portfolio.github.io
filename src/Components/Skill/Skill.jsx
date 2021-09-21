@@ -76,7 +76,7 @@ class Skill extends Component{
                         </div>
                         <div className="col-md-8">
                             <div className="card-body text-center" id="card-body">
-                                <h5 className="card-title" id="card-title">React</h5>
+                                <h5 className="card-title" id="card-title">JQuary</h5>
                                 <p className="card-text" id="card-text">
                                 <ReactTyped
                                     className="typed-text"
@@ -97,7 +97,7 @@ class Skill extends Component{
                         </div>
                         <div className="col-md-8">
                             <div className="card-body text-center" id="card-body">
-                                <h5 className="card-title" id="card-title">React</h5>
+                                <h5 className="card-title" id="card-title">JavaScript</h5>
                                 <p className="card-text" id="card-text">
                                 <ReactTyped
                                     className="typed-text"
@@ -118,7 +118,7 @@ class Skill extends Component{
                         </div>
                         <div className="col-md-8">
                             <div className="card-body text-center" id="card-body">
-                                <h5 className="card-title" id="card-title">React</h5>
+                                <h5 className="card-title" id="card-title">Microsoft SQL Server</h5>
                                 <p className="card-text" id="card-text">
                                 <ReactTyped
                                     className="typed-text"

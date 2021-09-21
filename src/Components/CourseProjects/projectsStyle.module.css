@@ -1,0 +1,17 @@
+.projectBody{
+    border:  solid 3px;
+    margin-top: 170vh;
+    height: 100vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width:769px)
+{
+    .projectBody{
+        border:  solid 3px;
+        margin-top: 405vh;
+        height: 100vh;
+        width: 100%;
+    }
+}

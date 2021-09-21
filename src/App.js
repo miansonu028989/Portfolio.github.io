@@ -12,6 +12,7 @@ function App() {
     <Header/>
     <Intro/>
     <Skill/>
+    <br/>
     <Projects/>
     </div>
   );
